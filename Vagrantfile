@@ -25,6 +25,7 @@ sudo apt-get install -y clang bliss libbliss-dev
 # sudo -u vagrant -i /vagrant/scripts/install-polymake.sh
 # Build GAP and packages
 sudo -u vagrant -i /vagrant/scripts/setup-gap.sh
+sudo -u vagrant /vagrant/scripts/build-covers.sh
 SCRIPT
 
 
